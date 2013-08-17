@@ -28,7 +28,6 @@ production:
    database: <%= ENV['MONGOID_DATABASE'] %>
 
   # heroku
-   uri: <%= ENV['MONGOHQ_URL'] %>
-
+   uri: mongodb://<user>:<password>@paulo.mongohq.com:10098/app17562477
   # bushido (mongohq_url will also work)
   #uri: <%= ENV['MONGODB_URL'] %>
