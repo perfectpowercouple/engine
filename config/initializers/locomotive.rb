@@ -67,7 +67,7 @@ Locomotive.configure do |config|
   # Note: by default, rack/cache is disabled in the Heroku platform
 config.hosting = {
   :target     => :heroku,
-  :api_key    => ENV['HEROKU_API_KEY'],
-  :app_name   => ENV['HEROKU_APP_NAME']
+  :api_key    => '98a0b0b-d9fd-4299-b864-8b78792151bc',	
+  :app_name   => 'strawberries' 
 }
 end
