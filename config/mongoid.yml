@@ -18,4 +18,4 @@ test:
 # set these environment variables on your prod server
 production:
   # heroku
-   uri: mongodb://<user>:<password>@paulo.mongohq.com:10098/app17562477 
+   uri: mongodb://heroku:81c03c1fa4fe1a7788106d0fc537e392@paulo.mongohq.com:10098/app17562477 
